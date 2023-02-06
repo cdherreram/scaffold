@@ -11,7 +11,7 @@ jobs:
           python-version: 3.9
       - name: Install dependencies
         run: |
-          make install
+          make install-gcp
       - name: Lint with Pylint
         run: |
           make lint
